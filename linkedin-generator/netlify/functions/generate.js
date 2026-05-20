@@ -37,6 +37,16 @@ exports.handler = async function (event) {
 - Embrace: longer comma-stacked sentences when appropriate, specific vivid details, genuine POV
 - End with something that invites a response without begging for engagement
 - Feel like a real person wrote it, not a content calendar
+- Never use the word "quietly"
+- Never use em dashes
+- Never use "it's not X, it's Y" constructions
+- Never use "wild," "resonate," "uncomfortable truth," "hit different," "genuinely"
+- No choppy stacked short sentences — prefer flowing prose with commas
+- No heavy parallel structures
+- No "here's what" constructions
+- No "nobody talks about" constructions
+- Never use the word "lands"
+- Never use the word "genuinely"
 
 Write 2 distinct LinkedIn post variations. Separate them with exactly "---". No labels, no numbering, no preamble, no explanation. Just the two posts.`;
 
