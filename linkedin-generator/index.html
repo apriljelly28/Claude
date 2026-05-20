@@ -466,6 +466,13 @@
 </div>
 
 <script>
+ function curlyQuotes(text) {
+  return text
+    .replace(/(^|[-\u2014\s(\["])'/g, "$1\u2018")
+    .replace(/'/g, "\u2019")
+    .replace(/(^|[-\u2014\s(\["])"/, "$1\u201C")
+    .replace(/"/g, "\u201D");
+}
   const FREE_LIMIT = 3;
   let selectedGoal = '';
 
@@ -561,7 +568,7 @@
         posts.forEach((post, i) => {
           const card = document.createElement('div');
           card.className = 'post-card';
-          const safePost = post.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+          const safePost = curlyQuotes(post).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');          
           card.innerHTML = `
             <div class="post-option-label">Option ${i + 1}</div>
             <div class="post-text">${safePost}</div>
