@@ -49,6 +49,7 @@ exports.handler = async function (event) {
 - Never use the word "genuinely"
 - No "keeps you up at night" construction at all
 - Never use the number 47
+- Never use "Tuesday" as an example day
 
 Write 2 distinct LinkedIn post variations. Separate them with exactly "---". No labels, no numbering, no preamble, no explanation. Just the two posts.`;
 
