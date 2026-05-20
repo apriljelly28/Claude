@@ -47,6 +47,7 @@ exports.handler = async function (event) {
 - No "nobody talks about" constructions
 - Never use the word "lands"
 - Never use the word "genuinely"
+- No "keeps you up at night" construction at all
 
 Write 2 distinct LinkedIn post variations. Separate them with exactly "---". No labels, no numbering, no preamble, no explanation. Just the two posts.`;
 
