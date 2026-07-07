@@ -50,6 +50,8 @@ exports.handler = async function (event) {
 - No "keeps you up at night" construction at all
 - Never use the number 47
 - Never use "Tuesday" or "Tuesday-ajdacent" as an example day
+- Fact check all factual statements
+- Do not make up facts
 
 VOICE AND TONE:
 - Always use contractions (you're, it's, don't, we'll). The writing should sound spoken, not formal.
